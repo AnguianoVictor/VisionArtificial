@@ -14,7 +14,7 @@ for i=1:NP
                                         %sinapticos
 end
 
-imagenPrueba = '.\Comprobacion\Mewtwo.bmp';
+imagenPrueba = '.\Comprobacion\Mew.bmp';
 PP = ImagenHu(imagenPrueba);%Aqui se coloca la ruta de la imagen a reconocer
 PP=PP./norm(PP);                        %Se normalizan los momentos invariantes de la imagen a reconocer
 
@@ -31,7 +31,7 @@ S = [3,8,13,18,23];
 M = [4,9,14,19,24];
 MT= [5,10,15,20,25];
 
-%Algoritmo para mostrar el nombre de la imagen reconocida. 
+%Interpretacion 
 for j = 1:NP/5
     if I == B(j)
         salida = 'Bulbasur';
